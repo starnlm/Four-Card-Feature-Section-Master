@@ -1,0 +1,128 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+  font-size: 12px;
+  background-color: hsl(0, 0%, 98%);
+  min-height: 100vh;
+}
+html {
+  margin: 1.5625rem;
+}
+p {
+  display: flex;
+}
+* {
+    box-sizing: border-box;
+}
+
+.mainText {
+  text-align: center;
+}
+
+.mainText1 {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.mainText2 {
+  color : hsl(234, 12%, 34%);
+  margin-top: 0;
+}
+
+.mainText3 {
+  margin: 1em auto;
+  width: 50%;
+}
+
+.mainBoxes {
+  margin:3.125rem auto;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  justify-content: space-between;
+}
+.Section1 {
+  margin: auto;
+}
+.Section3 {
+  margin: auto;
+
+}
+
+.Box1{
+  border-top: 0.3rem solid hsl(180, 62%, 55%);
+  background-color: white;
+  height: 11rem;
+  width: 15.625rem;
+  border-radius: 0.625rem;
+  padding: 0 0.625rem;
+  box-shadow: 4px 4px 25px -10px hsl(229, 6%, 66%);
+
+  }
+
+.Box4 {
+  border-top: 0.3rem solid blue;
+  background-color: white;
+  height: 11rem;
+  width: 15.625rem;
+  border-radius: 0.625rem;
+  padding: 0 0.625rem;
+  box-shadow: 4px 4px 25px -10px hsl(229, 6%, 66%);
+}
+
+.Box2{
+  border-top: 0.3rem solid red;
+  background-color: white;
+  margin-bottom: 2.5rem;
+  height: 11rem;
+  width: 15.625rem;
+  border-radius: 0.625rem;
+  padding: 0 0.625rem;
+  box-shadow: 4px 4px 25px -10px hsl(229, 6%, 66%);
+}
+
+.Box3 {
+  border-top: 0.3rem solid orange;
+  background-color: white;
+  margin-bottom: 2.5rem;
+  height: 11rem;
+  width: 15.625rem;
+  border-radius: 0.625rem;
+  padding: 0 0.625rem;
+  box-shadow: 4px 4px 25px -10px hsl(229, 6%, 66%);
+}
+
+.boxText1 {
+  color: hsl(234, 12%, 34%);
+  font-size: 18px;
+  font-weight:600;
+  margin-bottom: 0;
+}
+.boxText2 {
+  margin-top: 0.3125rem;
+}
+
+.boxImage {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+img {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.attribution {
+  display: block;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1025px) {
+  .mainBoxes {
+    flex-direction: column;
+  }
+  .Box2, .Box3 {
+    margin: 2.5rem auto;
+  }
+}
